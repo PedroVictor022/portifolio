@@ -10,31 +10,34 @@
    <title>Portifolio</title>
 </head>
 
-<body id="body">
+<body>
    <header id="header">
       <div class="header-content">
          <h1>Pedro Victor</h1>
 
          <nav class="navbar" id="navbar">
-            <button 
-               class="btn-close-header" 
-               id="btnClose"
-               onclick="toggleSidebar()"
-            >x</button>
+            <button class="btn-close-header" id="btnClose" onclick="toggleSidebar()">x</button>
             <a href="">Home</a>
             <a href="">Projetos</a>
             <a href="">Sobre</a>
          </nav>
 
-         <button 
-            id="btn_menu" 
-            class="btn_menu"
-            onclick="toggleSidebar()"
-         >Menu</button>
+         <button id="btn_menu" class="btn_menu" onclick="toggleSidebar()">Menu</button>
       </div>
-
    </header>
+
+   <main 
+      id="main-content"
+      tabindex="0"
+      onclick="closeSidebar()"
+   >
+      <h1>Teste</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eaque dolorum ad consequuntur tenetur, nobis
+         optio perferendis dolor, in quam quisquam enim debitis illo quia inventore voluptate quaerat accusamus vitae.
+      </p>
+   </main>
 
    <script src="index.js"></script>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 let header =  document.getElementById('header');
 let navigationHeader = document.getElementById('navbar');
-let body = document.getElementById('body');
+let mainContent = document.getElementById('main-content');
 let showSidebar = false;
 
 function toggleSidebar() {
@@ -9,12 +9,26 @@ function toggleSidebar() {
    {
       navigationHeader.style.marginLeft = '-10vw'
       navigationHeader.style.animationName = 'showSidebar'
-      body.style.filter = 'blur(2px)'
+      mainContent.style.filter = 'blur(2px)'
    }
    else 
    {
       navigationHeader.style.marginLeft = '-100vw'
       navigationHeader.style.animationName = ''
+      mainContent.style.filter = ''
    }
    console.log(showSidebar);
 }
+
+function closeSidebar() {
+   if(showSidebar) {
+      toggleSidebar();
+   }
+}
+
+
+window.addEventListener('resize', ()=> {
+   if(window.innerWidth > 720 && showSidebar) {
+      toggleSidebar();
+   }
+});

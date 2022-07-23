@@ -19,6 +19,7 @@ header {
    justify-content:space-between;
 }
 nav {
+   z-index: 2;
    display:inline-flex;
    gap: 1rem;
    align-items: center;
