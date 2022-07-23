@@ -1,0 +1,20 @@
+:root {
+   --color-white: #fff;
+   --color-dark1: #222;
+   --color-dark2: #272727;
+   --color-dark3: #414141;
+   --color-dark4: #1c1c1c;
+   --color-dark5: #343434;
+   --color-purple: #b040ff;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+body {
+   background-color: var(--color-dark1);
+   color:var(--color-white);
+}
