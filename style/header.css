@@ -27,7 +27,7 @@ nav {
 nav > a {
    text-decoration: none;
    color: var(--color-purple);
-   transition: all .1s;
+   transition: all 0.1s;
    font-weight: bold;
 }
 nav > a:hover {
@@ -45,4 +45,36 @@ nav > a:hover {
    height: 20px;
 
    display: none;
+}
+.btn-close-header {
+   display: none;
+}
+
+@media screen and (max-width:720px) {
+   .header-content > nav {
+      position: absolute;
+      flex-direction: column;
+      top: 0;
+      background-color: var(--color-dark5);
+      height: 100%;
+      width: 35vw;
+      padding:1rem;
+      animation-duration: 1s;
+      margin-left: -100vw
+   }
+   .btn_menu {
+      display: block;
+   }
+   .btn-close-header {
+      display: block;
+   }
+}
+
+@keyframes showSidebar {
+   from {
+      margin-left: -100vw;
+   }
+   top {
+      margin-left: -10vw;
+   }
 }
