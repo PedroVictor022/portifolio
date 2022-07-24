@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style/global.css">
    <link rel="stylesheet" href="style/header.css">
+   <link rel="stylesheet" href="style/main.css">
    <title>Portifolio</title>
 </head>
 
@@ -20,21 +21,57 @@
             <a href="">Home</a>
             <a href="">Projetos</a>
             <a href="">Sobre</a>
+            <a href="">Contato</a>
+
          </nav>
 
          <button id="btn_menu" class="btn_menu" onclick="toggleSidebar()">Menu</button>
       </div>
    </header>
 
-   <main 
-      id="main-content"
-      tabindex="0"
-      onclick="closeSidebar()"
-   >
-      <h1>Teste</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eaque dolorum ad consequuntur tenetur, nobis
-         optio perferendis dolor, in quam quisquam enim debitis illo quia inventore voluptate quaerat accusamus vitae.
-      </p>
+   <main id="main-content" tabindex="0" onclick="closeSidebar()" class="main">
+      <h1>Dev Frontend</h1>
+
+      <div class="card">
+         <h2>Quem sou eu?</h2>
+         <!-- <img src="" alt=""> -->
+         <p>Ola meu nome e Pedro Victor, sou desenvolvedor frontend. Atualmente cursando Análise e Desenvolvimento de
+            sistemas na Pontifícia Universidade Católica de Minas Gerais.</p>
+
+         <p>Nos ultimos meses tenho focado bastante nos meus projetos para colocar no Portifolio e assim conseguir a
+            minha primeira vaga na area de tecnologia.</p>
+      </div>
+
+      <div class="card">
+         <h2>Projetos</h2>
+
+         <section class="projects">
+            <h3>MemeMaker</h3>
+            <p>Um criado de memes, feito com uma API de imagens.</p>
+            <!-- <img src="" alt=""> -->
+
+         </section>
+
+         <section class="projects">
+            <h3>E Bank - Terminal</h3>
+            <p>Um siples programa que simula um caixa eletronico com algumas funcionalidades.</p>
+            <!-- <img src="" alt=""> -->
+         </section>
+
+         <section class="projects">
+            <h3>Todo List</h3>
+            <p>Uma lista de tarefa, onde as tarefas sao salvas em localStorage.</p>
+            <!-- <img src="" alt=""> -->
+         </section>
+
+         <section class="projects">
+            <h3>Calculadora Online</h3>
+            <p>Uma calculadora com funcionalidades de uma calculadora basica de contas.</p>
+            <!-- <img src="" alt=""> -->
+         </section>
+
+      </div>
+
    </main>
 
    <script src="index.js"></script>

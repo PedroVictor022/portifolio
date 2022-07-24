@@ -1,0 +1,18 @@
+.main {
+   width: 90%;
+   height: 100%;
+
+   margin: 1rem auto;
+   padding:0.5rem;
+}
+.card {
+   position: relative;
+   width: 100%;
+
+   margin: 2rem auto;
+   padding:1rem;
+
+   border-radius: 3px;
+
+   background-color:var(--color-dark2);
+}
