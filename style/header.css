@@ -63,7 +63,7 @@ nav > a:hover {
       flex-direction: column;
       top: 0;
       background-color: var(--color-dark5);
-      height: 100%;
+      height: auto;
       width: 35vw;
       padding:1rem;
       animation-duration: 1s;

@@ -10,6 +10,7 @@ function toggleSidebar() {
       navigationHeader.style.marginLeft = '-10vw'
       navigationHeader.style.animationName = 'showSidebar'
       mainContent.style.filter = 'blur(2px)'
+      mainContent.style.overflow = 'hidden'
    }
    else 
    {
