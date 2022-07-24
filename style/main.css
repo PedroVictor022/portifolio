@@ -5,6 +5,8 @@
    margin: 1rem auto;
    padding:0.5rem;
 }
+
+/*? All cards portifolio */
 .card {
    position: relative;
    width: 100%;
@@ -17,6 +19,7 @@
    background-color:var(--color-dark2);
 }
 
+/* ? Section projects */
 .projects-container {
    display: flex;
    flex-direction: column;
@@ -34,18 +37,28 @@
    background-color:var(--color-dark2);
 
 }
+
+/* Section description card */
 .projects-container_desc {
    text-align: center;
 }
 
+/* Control display grid */
 .section-projects {
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
 
+
+/* Config of cards project */
 .projects {
    margin-top: 2rem;
    width: 450px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
 }
 .projects > p {
    font-weight: 500;
@@ -57,4 +70,11 @@
    height: auto;
    border-radius: 5px;
    margin-top: 10px;
+}
+.projects > a {
+   margin-top: 14px;
+   text-decoration: none;
+   color: var(--color-purple);
+   font-weight: bold;
+
 }
