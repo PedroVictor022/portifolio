@@ -1,0 +1,25 @@
+.card-apresentation { 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom:1rem;
+}
+.text-container > p {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+}
+.my_photo {
+   width: 150px;
+   height: auto;
+
+   padding: 1rem;
+
+   border-radius: 25%;
+}
+
+@media (max-width:720px) {
+   .card-apresentation > img {
+      margin-top: 0.5rem;
+   }
+}

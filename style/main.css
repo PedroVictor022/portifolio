@@ -4,6 +4,8 @@
 
    margin: 1rem auto;
    padding:0.5rem;
+   
+   z-index: 4;
 }
 
 /*? All cards portifolio */
@@ -17,6 +19,13 @@
    border-radius: 3px;
 
    background-color:var(--color-dark2);
+}
+.card > h2 {
+   color: var(--color-purple);
+}
+
+.card > p {
+   margin-bottom:1rem;
 }
 
 /* ? Section projects */
@@ -79,14 +88,16 @@
    color: var(--color-purple);
    text-decoration: none;
    font-weight: bold;
-
+   border-radius: 4px;
    padding: 0.5rem;
 
    transition: 0.3s;
+
+   background-color: var(--color-dark3);
 }
 .projects a:hover {
-   background-color: var(--color-dark3);
-   border-radius: 4px;
+   background-color: #222;  
+   box-shadow: 0 0 10px var(--color-purple);
 }
 
 /* Mobile config */
@@ -103,4 +114,11 @@
    .projects > p {
       padding: 1rem;
    }
+}
+
+
+
+.tech {
+   text-align: center;
+   text-decoration: underline 1px var(--color-purple);
 }
