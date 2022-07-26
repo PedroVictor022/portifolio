@@ -25,7 +25,13 @@
 
          <!-- * NAVBAR -->
          <nav class="navbar" id="navbar">
-            <button class="btn-close-header" id="btnClose" onclick="toggleSidebar()">x</button>
+            <p class="btn-close-header" id="btnClose" onclick="toggleSidebar()">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+                  viewBox="0 0 16 16">
+                  <path
+                     d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+               </svg>
+            </p>
             <a href="">Home</a>
             <a href="./pages/projetos.html">Projetos</a>
             <a href="">Sobre</a>
@@ -45,114 +51,121 @@
 
    <main id="main-content" tabindex="0" onclick="closeSidebar()" class="main">
 
-      <!-- ! CARD PRINCIPAL -->
-      <div class="card principal-card">
-         <h2>Quem sou eu?</h2>
+      <div class="main-container">
+         <!-- ! CARD PRINCIPAL -->
+         <div class="card principal-card">
+            <h2>Quem sou eu?</h2>
 
-         <div class="card-apresentation">
-            <img src="./assets/2db70c32-b3af-4ea4-97fa-b56b6f3886ea.jpg" alt="Minha foto" class="my_photo">
+            <div class="card-apresentation">
+               <img src="./assets/2db70c32-b3af-4ea4-97fa-b56b6f3886ea.jpg" alt="Minha foto" class="my_photo">
 
-            <div class="text-container">
-               <p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                     class="bi bi-person-circle" viewBox="0 0 16 16">
-                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                     <path fill-rule="evenodd"
-                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                  </svg>
-                  Pedro Victor, 20 anos
-               </p>
+               <div class="text-container">
+                  <p>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                           d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                     </svg>
+                     Pedro Victor, 20 anos
+                  </p>
 
-               <p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                     class="bi bi-pin-map-fill" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd"
-                        d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
-                     <path fill-rule="evenodd"
-                        d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
-                  </svg> Sete Lagoas, Minas Gerais Brasil
-               </p>
+                  <p>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                           d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                        <path fill-rule="evenodd"
+                           d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                     </svg> Sete Lagoas, Minas Gerais Brasil
+                  </p>
 
-               <p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                     class="bi bi-cpu-fill" viewBox="0 0 16 16">
-                     <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
-                     <path
-                        d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z" />
-                  </svg> Frontend dev
-               </p>
+                  <p>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+                        <path
+                           d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z" />
+                     </svg> Frontend dev
+                  </p>
+               </div>
             </div>
+
+            <p>Ola meu nome e Pedro Victor, sou desenvolvedor frontend. Atualmente cursando Análise e Desenvolvimento de
+               sistemas na Pontifícia Universidade Católica de Minas Gerais.</p>
+
+            <p>Nos ultimos meses tenho focado bastante nos meus projetos para colocar no Portifolio e assim conseguir a
+               minha primeira vaga na area de tecnologia.</p>
+
+            <p>Como entrei no mundo da programacao? No inicio do ensino medio eu havia descoberto o quao interessante
+               era o
+               mundo dos computadores, meu primeiro contato foi com Python, tinha aprendido o basico e logo depois fui
+               para
+               o Javascript, linguagem no qual eu tinha decidido que iria aprender para ingressar no mercado de
+               trabalho.
+            </p>
          </div>
 
-         <p>Ola meu nome e Pedro Victor, sou desenvolvedor frontend. Atualmente cursando Análise e Desenvolvimento de
-            sistemas na Pontifícia Universidade Católica de Minas Gerais.</p>
+         <!-- ! CONTAINER PROJECTS -->
+         <div class="projects-container">
 
-         <p>Nos ultimos meses tenho focado bastante nos meus projetos para colocar no Portifolio e assim conseguir a
-            minha primeira vaga na area de tecnologia.</p>
+            <div class="projects-container_desc">
+               <h2>Projetos</h2>
+               <p>Estes sao alguns de meus projetos.</p>
+            </div>
 
-         <p>Como entrei no mundo da programacao? No inicio do ensino medio eu havia descoberto o quao interessante era o
-            mundo dos computadores, meu primeiro contato foi com Python, tinha aprendido o basico e logo depois fui para
-            o Javascript, linguagem no qual eu tinha decidido que iria aprender para ingressar no mercado de trabalho.
-         </p>
-      </div>
+            <div class="section-projects">
+               <section class="projects">
+                  <h3>MemeMaker</h3>
+                  <img src="./assets/MemeMaker.png" alt="MemeMaker">
+                  <p>Um criado de memes, feito com uma API de imagens. Para saber mais acesse o repositotio do projeto.
+                  </p>
 
-      <!-- ! CONTAINER PROJECTS -->
-      <div class="projects-container">
+                  <p class="tech">REACTJS | STYLED-COMPONENTS</p>
 
-         <div class="projects-container_desc">
-            <h2>Projetos</h2>
-            <p>Estes sao alguns de meus projetos.</p>
+                  <a href="https://meme-maker-liart.vercel.app/" target="_blank">Acesse o MemeMaker</a>
+               </section>
+
+               <section class="projects">
+                  <h3>E Bank - Terminal</h3>
+                  <img src="./assets/ebank.png" alt="E-Bank">
+                  <p>Um siples programa que simula um caixa eletronico com algumas funcionalidades. Para testar o app,
+                     siga
+                     o passo a passo no README.</p>
+
+                  <p class="tech">JAVASCRIPT | NODE-JS</p>
+
+                  <a href="https://github.com/PedroBVictor/e_bank" target="_blank">Acesse o Repositorio</a>
+               </section>
+
+               <section class="projects">
+                  <h3>Todo List</h3>
+                  <img src="./assets/todo-list.png" alt="Todo List">
+                  <p>Uma lista de tarefa, onde as tarefas sao salvas em localStorage.</p>
+                  <p class="tech">REACTJS | STYLED-COMPONENTS</p>
+                  <a href="https://todo-list-reactjs-inky.vercel.app/" target="_blank">Acesse a Todo List</a>
+               </section>
+
+               <section class="projects">
+                  <h3>Calculadora Online</h3>
+                  <img src="./assets/Calculadora.png" alt="Calculadora">
+                  <p>Uma calculadora com funcionalidades basicas e um display de resultado.</p>
+
+                  <p class="tech">REACTJS</p>
+
+                  <a href="https://calculator-reactjs-woad.vercel.app/" target="_blank">Acesse a Calculadora</a>
+               </section>
+            </div>
+
          </div>
 
-         <div class="section-projects">
-            <section class="projects">
-               <h3>MemeMaker</h3>
-               <img src="./assets/MemeMaker.png" alt="MemeMaker">
-               <p>Um criado de memes, feito com uma API de imagens. Para saber mais acesse o repositotio do projeto.</p>
-
-               <p class="tech">REACTJS | STYLED-COMPONENTS</p>
-
-               <a href="https://meme-maker-liart.vercel.app/" target="_blank">Acesse o MemeMaker</a>
-            </section>
-
-            <section class="projects">
-               <h3>E Bank - Terminal</h3>
-               <img src="./assets/ebank.png" alt="E-Bank">
-               <p>Um siples programa que simula um caixa eletronico com algumas funcionalidades. Para testar o app, siga
-                  o passo a passo no README.</p>
-
-               <p class="tech">JAVASCRIPT | NODE-JS</p>
-               
-               <a href="https://github.com/PedroBVictor/e_bank" target="_blank">Acesse o Repositorio</a>
-            </section>
-
-            <section class="projects">
-               <h3>Todo List</h3>
-               <img src="./assets/todo-list.png" alt="Todo List">
-               <p>Uma lista de tarefa, onde as tarefas sao salvas em localStorage.</p>
-               <p class="tech">REACTJS | STYLED-COMPONENTS</p>
-               <a href="https://todo-list-reactjs-inky.vercel.app/" target="_blank">Acesse a Todo List</a>
-            </section>
-
-            <section class="projects">
-               <h3>Calculadora Online</h3>
-               <img src="./assets/Calculadora.png" alt="Calculadora">
-               <p>Uma calculadora com funcionalidades basicas e um display de resultado.</p>
-
-               <p class="tech">REACTJS</p>
-
-               <a href="https://calculator-reactjs-woad.vercel.app/" target="_blank">Acesse a Calculadora</a>
-            </section>
+         <!-- ? CONTACT -->
+         <div class="card contact">
+            <h2>Entre em contato</h2>
+            <p>Caso tenha o interesse, entre em contato pelo meu <a href="" target="_blank"
+                  rel="noopener noreferrer">Linkedin</a>, Whatsapp 31 995083673 ou diretamente pelo meu email
+               pedro20002victor@gmail.com</p>
          </div>
-
-      </div>
-
-      <!-- ? CONTACT -->
-      <div class="card contact">
-         <h2>Entre em contato</h2>
-         <p>Caso tenha o interesse, entre em contato pelo meu <a href="" target="_blank"
-               rel="noopener noreferrer">Linkedin</a>, Whatsapp 31 995083673 ou diretamente pelo meu email
-            pedro20002victor@gmail.com</p>
       </div>
 
    </main>
@@ -189,7 +202,7 @@
 
    </footer>
 
-   <script src="index.js"></script>
+   <script src="./scripts/index.js"></script>
 </body>
 
 </html>

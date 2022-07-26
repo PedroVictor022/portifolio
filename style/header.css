@@ -63,7 +63,7 @@ nav > a:hover {
       flex-direction: column;
       top: 0;
       background-color: var(--color-dark5);
-      height: auto;
+      height: 100vw;
       width: 35vw;
       padding:1rem;
       animation-duration: 1s;
@@ -93,6 +93,7 @@ nav > a:hover {
    }
    .btn-close-header {
       display: block;
+      color: var(--color-purple);
    }
 }
 
