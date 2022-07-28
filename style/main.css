@@ -36,6 +36,7 @@ main {
 }
 
 .card > p {
+   margin-top: 1rem;
    margin-bottom:1rem;
 }
 
@@ -46,7 +47,6 @@ main {
       padding-bottom: 1rem;
    }
 }
-
 
 .tech {
    text-align: center;
