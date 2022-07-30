@@ -14,8 +14,14 @@
 }
 
 .sobre > p {
-   line-height: 1rem;
+   line-height: 1.2rem;
    margin-top: 1rem;
    margin-bottom: 1rem;
 }
 
+
+.sobre > ul {
+   list-style:none;
+   line-height: 1.5rem;
+   
+}
