@@ -9,7 +9,7 @@
    
    background-color: var(--color-dark2);
 }
-.github-api > h2, p {
+.github-api > h2 {
    text-align:center;
    margin-bottom:0.3rem;
    color: var(--color-purple);

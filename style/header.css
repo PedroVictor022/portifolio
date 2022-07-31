@@ -29,7 +29,7 @@ header {
 nav {
    z-index: 2;
    display:inline-flex;
-   gap: 1rem;
+   gap: 1.5rem;
    align-items: center;
 }
 
@@ -68,7 +68,7 @@ nav > a:hover {
       flex-direction: column;
       top: 0;
       background-color: var(--color-dark5);
-      height: 100vw;
+      height: 200vw;
       width: 35vw;
       padding:1rem;
       animation-duration: 1s;
