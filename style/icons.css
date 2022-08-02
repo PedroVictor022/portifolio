@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@700&display=swap');
+
+.tech-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.tech-icons {
+   font-family: 'Saira', sans-serif;
+   display: grid;
+   align-items:center;
+   justify-content: center;
+   grid-template-columns:2fr 2fr;
+   gap: 20px;
+}
+.tech-icons_elements {
+   max-width: 400px;
+   background-color:var(--color-dark1);
+   text-align:center;
+   font-size:1.5rem;
+   border-radius: 5px;
+   transition: all .2s;
+}
+.tech-icons_elements > p {
+   padding: 2rem;
+}
+
+.tech-icons_elements:hover {
+   background-color: var(--color-dark4);
+   transition: all .3s;
+}
+
+@media (max-width:720px) {
+   .tech-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .tech-icons_elements {
+      width: 250px;
+      font-size: 1.2rem;
+   }
+
+}
+
+/* text config */
+.text-html {
+   transition: .2s;
+}
+.text-html:hover {
+   transition: .2s;
+   color: #ff4500;
+}
+.text-css {
+   transition: .2s;
+}
+.text-css:hover {
+   transition: .2s;
+   color: #87cefa;
+}
+.text-javascript {
+   transition: .2s;
+}
+.text-javascript:hover {
+   transition: .2s;
+   color: #e4e400;
+}
+.text-reactjs {
+   transition: .2s;
+}
+.text-reactjs:hover {
+   transition: .2s;
+   color: #1a6cd1;
+}
+.text-st {
+   transition: .2s;
+}
+.text-st:hover {
+   transition: .2s;
+   color: rgb(93, 0, 255);
+}
+.text-nodejs {
+   transition: .2s;
+}
+.text-nodejs:hover {
+   transition: .2s;
+   color: #00ff40;
+}

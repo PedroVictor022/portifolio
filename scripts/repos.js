@@ -16,7 +16,7 @@ async function getMyRepos() {
       divE.innerHTML = `
          <div class='repo-container'>
             <h3>${item.name}</h3>
-            <span class='link-repo'>${item.url}</span>
+            <a class='link-repo' href="${item.html_url}" target='_blank'>${item.html_url}</a>
             <span>Data: ${Intl.DateTimeFormat('pt-br').format(new Date(item.created_at))}</span>
          </div>
       `
