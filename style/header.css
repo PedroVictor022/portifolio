@@ -4,6 +4,8 @@ header {
 
    margin-bottom:0.5rem;
 
+   border-bottom: 1px solid #5e5e5e;
+
    background-color: var(--color-dark2);
    
    box-shadow: 1px 1px 4px var(--color-dark4);

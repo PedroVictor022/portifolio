@@ -3,7 +3,7 @@
 }
 ul > li {
    margin-top: 0.5rem;
-   margin-left: 1rem;
+   margin-left: 0.5rem;
 }
 li > a {
    text-decoration: none;
@@ -11,6 +11,6 @@ li > a {
    transition: 0.2s;
 }
 li > a:hover {
-   color: rgb(199, 28, 199);
+   color: #00ac59;
    transition: 0.3s;
 }

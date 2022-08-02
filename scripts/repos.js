@@ -9,7 +9,6 @@ async function getMyRepos() {
    // Repos
    const respRepo = await fetch('https://api.github.com/users/PedroBVictor/repos');
    const respDataRepo = await respRepo.json();
-   console.log(respDataRepo)
 
    respDataRepo.map(item => {
       let divE = document.createElement('div');
