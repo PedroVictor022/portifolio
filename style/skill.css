@@ -1,0 +1,13 @@
+.skill {
+   width: 100%;
+   margin: 1rem auto;
+   padding: 1rem;
+   border-radius: 3px ;
+}
+
+.skill > h2 {
+   text-align: center;
+   color: var(--principal-color);
+   margin-bottom: 1.5rem;
+
+}

@@ -1,13 +1,15 @@
 :root {
    --color-white: rgb(232, 232, 232);
-   --color-dark1: #222;
-   --color-dark2: #272727;
+   --color-dark1: #080713;
+   --color-dark2: #100f20;
    --color-dark3: #414141;
    --color-dark4: #1c1c1c;
    --color-dark5: #343434;
    --color-purple: #40ff83;
 
    --principal-color: #8257DA;
+   --teste: #080713;
+   --teste2: #0B0A17;
 }
 
 * {

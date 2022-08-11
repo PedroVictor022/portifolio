@@ -12,19 +12,34 @@
 }
 .tech-icons {
    font-family: 'Saira', sans-serif;
-   display: grid;
+   
+   /* display: grid;
    align-items:center;
    justify-content: center;
    grid-template-columns:1fr 1fr;
+   gap: 20px; */
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
    gap: 20px;
 }
 .tech-icons_elements {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
    max-width: 250px;
+   height: 150px;
    background-color:var(--color-dark1);
    text-align:center;
    font-size:1.5rem;
-   border-radius: 5px;
+   border-radius: 20px 10px 0px 0px;
    transition: all .2s;
+   border-bottom: 5px solid var(--principal-color);
+}
+.tech-icons_elements:hover {
+   border-bottom: 5px solid #5915e2;
 }
 .tech-icons_elements > p {
    padding: 2rem;
@@ -35,6 +50,15 @@
    transition: all .3s;
 }
 
+@media (max-width:1290px) {
+   .tech-icons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      max-width: 230px;
+   }
+}
+
 @media (max-width:720px) {
    .tech-icons {
       display: flex;
@@ -43,8 +67,10 @@
       flex-direction: column;
    }
    .tech-icons_elements {
-      width: 250px;
-      font-size: 1.2rem;
+      word-break: break-all;
+      width: 200px;
+      font-size: 1.3rem;
+      border-bottom: 2px solid var(--principal-color);
    }
 
 }
