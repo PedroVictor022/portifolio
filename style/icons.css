@@ -31,23 +31,21 @@
 
    max-width: 250px;
    height: 150px;
-   background-color:var(--color-dark1);
+   background-color:var(--bg2);
    text-align:center;
    font-size:1.5rem;
    border-radius: 20px 10px 0px 0px;
    transition: all .2s;
    border-bottom: 5px solid var(--principal-color);
 }
-.tech-icons_elements:hover {
-   border-bottom: 5px solid #5915e2;
-}
 .tech-icons_elements > p {
    padding: 2rem;
 }
 
 .tech-icons_elements:hover {
-   background-color: var(--color-dark4);
+   background-color: var(--bg1);
    transition: all .3s;
+   border-bottom: 5px solid #5915e2;
 }
 
 @media (max-width:1290px) {
