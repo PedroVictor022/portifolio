@@ -37,7 +37,7 @@ nav {
 
 nav > a {
    text-decoration: none;
-   color: var(--color-purple);
+   color: var(--principal-color);
    transition: all 0.1s;
    font-weight: bold;
 }
@@ -100,7 +100,7 @@ nav > a:hover {
    }
    .btn-close-header {
       display: block;
-      color: var(--color-purple);
+      color: var(--principal-color);
    }
 }
 

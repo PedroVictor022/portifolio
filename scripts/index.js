@@ -16,7 +16,6 @@ function toggleSidebar() {
       navigationHeader.style.animationName = ''
       mainContent.style.filter = ''
    }
-   console.log(showSidebar);
 }
 
 function closeSidebar() {
@@ -34,15 +33,11 @@ window.addEventListener('resize', () => {
 
 // API GITHUB - 
 let my_photo = document.querySelector('#my_photo');
-console.log(my_photo)
-
 async function createAvatar() {
    const userData = await fetch('https://api.github.com/users/PedroBVictor');
    const resp = await userData.json();
 
    my_photo.innerHTML = `<img class='my_photo' src="${resp.avatar_url}"/>` 
-
-   console.log(resp)
 }
 
-createAvatar()
+createAvatar();

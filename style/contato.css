@@ -7,7 +7,7 @@ ul > li {
 }
 li > a {
    text-decoration: none;
-   color: var(--color-purple);
+   color: var(--principal-color);
    transition: 0.2s;
 }
 li > a:hover {
