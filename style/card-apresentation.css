@@ -11,7 +11,7 @@
    font-weight:600;
    font-size: 38px;
 }
-.my-name {
+.text-container > .my-name-title {
    color: var(--principal-color);
    font-weight: 900;
 }
