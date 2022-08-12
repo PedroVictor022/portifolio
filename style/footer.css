@@ -21,7 +21,10 @@ footer {
    color:var(--principal-color);
 }
 .social > a:hover {
-   color: #008e45;
+   color: #fefefe;
+}
+.my-name {
+   color: #818181;
 }
 footer > a {
    text-decoration: none;

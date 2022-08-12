@@ -1,16 +1,24 @@
-.contact > ul {
-   list-style:none;
+.contact-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
 }
-ul > li {
-   margin-top: 0.5rem;
-   margin-left: 0.5rem;
+.title-contact {
+   color: #d1d1d1;
+   font-size:20px;
+   font-weight: 500;
+   margin-top: 0.7rem;
+   margin-bottom: 0.5rem;
 }
-li > a {
+.subtitle-contact {
    text-decoration: none;
-   color: var(--principal-color);
-   transition: 0.2s;
+   color: azure;
 }
-li > a:hover {
-   color: #00ac59;
-   transition: 0.3s;
+
+@media (max-width:720px) {
+   .contact-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+   }
 }
