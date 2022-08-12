@@ -18,6 +18,23 @@ main {
    z-index: 4;
 }
 
+/* QUEM SOU EU? H2 */
+.container-h2{
+   color: var(--principal-color);
+
+   width: 1000px;
+   margin: 0 auto;
+}
+
+/* TEXTO SOBRE MIM */
+.text_max-w{
+   max-width: 1000px;
+   margin: 1rem auto;
+}
+.text_max-w > p {
+   line-height: 1.5rem;
+}
+
 /*? All cards portifolio */
 .card {
    width: 100%;
