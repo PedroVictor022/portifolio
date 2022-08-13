@@ -15,7 +15,7 @@
 }
 
 .sobre > p {
-   line-height: 1.2rem;
+   line-height: 1.5rem;
    margin-top: 1rem;
    margin-bottom: 1rem;
 }
@@ -23,6 +23,14 @@
 
 .sobre > ul {
    list-style:none;
-   line-height: 1.5rem;
-   
+   line-height: 1.5rem;  
+}
+
+._1{
+   background-color: var(--color-dark2);
+   border-radius: 2rem;
+}
+
+.marg-t {
+   margin-top: 2rem;
 }

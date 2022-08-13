@@ -63,3 +63,15 @@
       font-size: 16px;
    }
 }
+
+.link-page{
+   color:#fefefe;
+   font-weight: 600;
+   cursor: pointer;
+   transition: .2s;
+   text-decoration: none;
+}
+.link-page:hover {
+   color: var(--principal-color);
+   transition: .2s;
+}

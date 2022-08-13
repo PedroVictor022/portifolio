@@ -19,6 +19,7 @@ footer {
 }
 .social > a {
    color:var(--principal-color);
+   font-size: 1.5rem;
 }
 .social > a:hover {
    color: #fefefe;
