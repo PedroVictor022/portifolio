@@ -15,10 +15,22 @@
    color: azure;
 }
 
+.card-contact {
+   border-radius: 8px;
+   margin-top: 1rem;
+   background-color:var(--color-dark2);
+   width: auto;
+   padding: 1rem;
+}
+
 @media (max-width:720px) {
    .contact-container {
       flex-direction: column;
       align-items: flex-start;
       gap: 20px;
+   }
+   .card-contact {
+      padding: 1rem;
+      width: 100%;   
    }
 }
