@@ -26,6 +26,12 @@ header {
    justify-content:space-between;
 }
 
+.link-title{ 
+   text-decoration: none;
+   font-size:32px;
+   font-weight: 900;
+   color: #fff;
+}
 
 /* Navbar config */
 nav {
