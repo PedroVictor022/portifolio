@@ -1,6 +1,7 @@
 .contact-container{
    display: flex;
-   align-items: center;
+   flex-direction: column;
+   align-items: flex-start;
    justify-content: space-around;
 }
 .title-contact {
@@ -10,16 +11,24 @@
    margin-top: 0.7rem;
    margin-bottom: 0.5rem;
 }
+.contact > h2 {
+   margin-bottom: 1rem;
+}
 .subtitle-contact {
    text-decoration: none;
-   color: azure;
+   color: #777777;
+   transition: .2s;
+}
+.subtitle-contact:hover {
+   color: #fff;
+   transition: .2s;
 }
 
 .card-contact {
    border-radius: 8px;
    margin-top: 1rem;
    background-color:var(--color-dark2);
-   width: auto;
+   width: 100%;
    padding: 1rem;
 }
 
