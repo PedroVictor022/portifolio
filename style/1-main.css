@@ -18,31 +18,12 @@ main {
    z-index: 4;
 }
 
-/* QUEM SOU EU? H2 */
-.container-h2{
-   color: var(--principal-color);
-
-   width: 1000px;
-   margin: 0 auto;
-}
-
-/* TEXTO SOBRE MIM */
-.text_max-w{
-   max-width: 1000px;
-   margin: 1rem auto;
-}
-.text_max-w > p {
-   line-height: 2rem;
-}
-
 /*? All cards portifolio */
 .card {
    width: 100%;
 
    margin: 2rem auto;
    padding:1rem;
-
-   border-radius: 3px;
 
    /* background-color:var(--color-dark2); */
 }

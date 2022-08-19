@@ -18,12 +18,12 @@
    box-sizing: border-box;
 
    scroll-behavior: smooth;
+   font-family: 'Montserrat', sans-serif;
    
 }
 body {
    background-color: var(--color-dark1);
    color:var(--color-white);
-   font-family: 'Montserrat', sans-serif;
 }
 
 .align-center {

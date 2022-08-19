@@ -1,3 +1,12 @@
+.my-card {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   margin-top: 1rem;
+}
+
+/*? Card do texto de aprensetacao */
 .card-apresentation { 
    margin: 2rem auto;
    display: flex;
@@ -7,31 +16,32 @@
    max-width: 1000px;
    gap: 5rem;
 }
-.text-container > p {
-   font-weight:600;
+.card-apresentation-title {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+}
+.apresetation-container {
+   font-weight: 600;
+   color: #f0f8ff;
    font-size: 38px;
 }
-.text-container > .my-name-title {
-   color: var(--principal-color);
+.my-name-container {
+   color:var(--principal-color);
    font-weight: 900;
 }
-.subtitle{
-   font-size: 22px;
-}
+
 .my_photo {
    display: inline-block;
    border-radius: 50%;
    width: 220px;
    height: auto;
-
    padding:0;
-
 }
-
 .actions {
-   margin-top: 1.5rem;
+   margin-top: 2rem;
 }
-
 .download {
    color: aliceblue;
    background-image: linear-gradient(90deg, rgba(130,87,230,0.8) .2%, rgba(121,48,190,0.648) 100%);
@@ -51,6 +61,14 @@
    background-color: var(--principal-color);
 }
 
+/* TEXTO SOBRE MIM */
+.text_max-w{
+   margin: 1rem auto;
+}
+.text_max-w > p {
+   line-height: 2rem;
+}
+
 @media (max-width:720px) {
    .card-apresentation {
       flex-direction: column;
@@ -64,6 +82,7 @@
    }
 }
 
+/* LINK PARA O SOBRE */
 .link-page{
    color:#fefefe;
    font-weight: 600;
