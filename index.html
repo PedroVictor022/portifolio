@@ -25,9 +25,10 @@
 </head>
 
 <body>
+   <div id="title" class="title"></div>
    <header id="header">
       <div class="header-content">
-         <a href="/" class="link-title">Pedro Borges</a>
+         <a href="#title" class="link-title">Pedro Borges</a>
 
          <!-- * NAVBAR -->
          <nav class="navbar" id="navbar">
@@ -38,10 +39,11 @@
                      d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
                </svg>
             </p>
-            <a href="./index.html">Home</a>
+            <a href="#title">Home</a>
             <!-- <a href="./pages/projetos.html">Projetos</a> -->
             <a href="#project-f">Projetos</a>
-            <a href="./pages/sobre.html">Sobre</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
 
          </nav>
          <!-- * CONFIG MENU -->
@@ -57,6 +59,7 @@
 
    <main id="main-content" tabindex="0" onclick="closeSidebar()" class="main">
 
+
       <div class="main-container">
          <!-- ! CARD PRINCIPAL -->
          <div class="my-card">
@@ -66,7 +69,7 @@
                <!-- My photo -->
                <div class="card-apresentation-title">
                   <div class="apresetation-container">
-                     <p>Olá, meu nome é 
+                     <p>Olá, meu nome é
                      <p class="my-name-container">Pedro Borges</p>
                      </p>
                      <p>Desenvolvedor Front-End</p>
@@ -80,11 +83,13 @@
                </div>
             </div>
             <div class="text_max-w">
-               <p>Olá meu nome é Pedro Victor Borges França, sou desenvolvedor Frontend. Atualmente cursando o 2° periodo de Análise e
+               <p>Olá meu nome é Pedro Victor Borges França, sou desenvolvedor Frontend. Atualmente cursando o 2°
+                  periodo de Análise e
                   Desenvolvimento de Sistemas, na Pontifíca Universidade Católica de Minas Gerais.</p>
 
-               <p>Atualmente estou estudando cada vez mais para então conseguir minha primeira vaga como desenvolvedor web.</p>
-               <a class="link-page" href="./pages/sobre.html">Ler mais.</a>
+               <p>Atualmente estou estudando cada vez mais para então conseguir minha primeira vaga como desenvolvedor
+                  web.</p>
+               <a class="link-page" href="#sobre">Ler mais.</a>
             </div>
          </div>
 
@@ -109,23 +114,25 @@
                      <p class="text-st">STYLED-COMPONENTS</p>
                   </div>
                   <div class="tech-icons_elements">
-                     <p class="text-nodejs"  id="project-f">NODEJS</p>
+                     <p class="text-nodejs" id="project-f">NODEJS</p>
                   </div>
                </div>
             </div>
          </div>
          <!-- * CONTAINER SERVICES -->
-         
+
          <div class="services-container">
             <h2>Serviços</h2>
             <div class="services-section">
                <div class="card-service">
-                  <h3>Desenvolvimento</h3>
-                  <p>Desenvolvimento de sites profissionais para a apresentação do seu trabalho em forma de landing-pages.</p>
+                  <h3>Desenvolvimento ⚙</h3>
+                  <p>Desenvolvimento de sites profissionais para a apresentação do seu trabalho em forma de
+                     landing-pages.</p>
                </div>
                <div class="card-service">
-                  <h3>UI Desing</h3>
-                  <p>Desenho interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.</p>
+                  <h3>UI Desing 📊</h3>
+                  <p>Desenho interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.
+                  </p>
                   <p></p>
                </div>
             </div>
@@ -137,7 +144,6 @@
 
             <div class="projects-container_desc">
                <h2>PROJETOS</h2>
-               <p>Estes são alguns de meus projetos.</p>
             </div>
 
             <div class="section-projects">
@@ -166,13 +172,64 @@
                </section>
             </div>
 
+            <div id="sobre"></div>
          </div>
 
+         <div class="card sobre" >
+            <div class="sobre-container">
+               <h2>Sobre mim</h2>
+               <div class="sobre-card">
+                  <p>
+                     Como entrei no mundo da programação? No início do Ensino Médio eu havia descoberto o quão era
+                     interessante a área da computação em geral e por influência de um amigo, eu começei a estudar
+                     Python.
+                     No
+                     inicio eu programava alguns mini apps para resolver cálculos de Fisíca e Matematica, materias
+                     que
+                     eu
+                     sempre tive dificuldade na escola. Mas não demorou muito para eu descobrir o Javascript,
+                     linguagem
+                     que
+                     eu
+                     hávia definido que seria a minha especialidade. A partir dai eu decidi que seria um Dev
+                     Frontent. <br>
+                     Meu objetivo principal é conseguir uma vaga como dev junior e crescer na área tech mostrando e
+                     desenvolvendo minhas habilidades como programador.
+                  </p>
+               </div>
 
+               <h2>Experiências</h2>
+               <div class="sobre-card">
+                  <p>No início da pandemia fui auxiliar de vendas, trabalhando diretamente com atendimento e
+                     organização
+                     de
+                     planilhas, em seguida me alistei e fui designado para o Exército Brasileiro, onde desenvolvi
+                     disciplina e
+                     valores que levarei para a vida toda. Após a segunda baixa, tirei um tempo para que eu
+                     pudesse
+                     estudar
+                     e
+                     me dedicar mais aos estudos e projetos pessoais.</p>
+               </div>
+
+               <h2>Soft skills</h2>
+               <div class="sobre-card">
+                  <div class="soft-skills">
+                     <p> - Pensamento Critico 🧐</p>
+                     <p> - inteligência emocional 🤯</p>
+                     <p> - Gestão de tempo 🤑</p>
+                     <p> - Rapido aprendizado 😮</p>
+                     <p> - Flexibilidade 🐱‍👤</p>
+                  </div>
+               </div>
+            </div>
+
+            <div id="contato"></div>
+         </div>
 
          <!-- ? CONTACT -->
          <div class="card contact">
-            <h2>FALE COMIGO</h2>
+            <h2>Entre em contato</h2>
 
             <section class="contact-container">
                <div class="card-contact">
