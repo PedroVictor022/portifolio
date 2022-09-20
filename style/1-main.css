@@ -52,3 +52,21 @@ main {
    text-align: center;
    text-decoration: underline 1px var(--principal-color);
 }
+
+.btnColor {
+   z-index: 100000;
+   position: fixed;
+   right:5%;
+   top: 7.5%;
+
+   padding: 0.2rem;
+
+   background-color: var(--principal-color);
+   font-weight: 700;
+   color: aliceblue;
+
+   border: none;
+   border-radius: 5px;
+
+   cursor: pointer;
+}
