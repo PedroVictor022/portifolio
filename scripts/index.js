@@ -10,5 +10,3 @@ async function createAvatar() {
 createAvatar();
 
 let btnDark = document.querySelector('#btnColorMode');
-
-btnDark.innerHTML = '<p>Mode</p>'
